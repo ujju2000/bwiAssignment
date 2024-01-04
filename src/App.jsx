@@ -11,20 +11,20 @@ import Cart from './components/Cart';
 
 const router = createBrowserRouter([
   {
-    path : '/', 
+    path : '/bwiAssignment/', 
     element : <Layout />
   }, {
-    path : '/home' ,
+    path : '/wiAssignment/home' ,
 
     element : <WithLoginRouter>
                 <Home />
               </WithLoginRouter>
 
   }, {
-    path : '/login' ,
+    path : '/bwiAssignment/login' ,
     element : <Login />
   } , {
-    path  : '/cart', 
+    path  : '/bwiAssignment/cart', 
     element : <Cart />
   }
 ])
