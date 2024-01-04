@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             </div>
             <div className = 'h-[70px] relative basis-[100px] flex  '>
-            <Link  to = '/cart'>
+            <Link  to = '/bwiAssignment/cart'>
                 <FaShoppingCart size = {30} color = 'green' className='m-4 mr-3'
                     
                 />

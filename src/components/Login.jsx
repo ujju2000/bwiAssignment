@@ -16,7 +16,7 @@ export default function Login() {
             if(res) {
                toast.success('login successully');
                setIsUser(true);
-               navigate('/home' ,{replace :true})
+               navigate('/bwiAssignment/home' ,{replace :true})
            }
            else {
                toast.error('invalid credentials');

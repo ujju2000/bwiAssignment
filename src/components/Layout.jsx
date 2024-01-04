@@ -18,9 +18,9 @@ export default function Layout({children}) {
       <div className = 'w-full bg-black p-4 flex items-center justify-around text-white cursor:pointer'>
           <Link to = '/home'>Home</Link>
           {
-            isUser ? <Link to = '/' onClick = {handleClick}>Logout </Link>
+            isUser ? <Link to = '/bwiAssignment/' onClick = {handleClick}>Logout </Link>
             : 
-            <Link  to  = '/login'>Login</Link>
+            <Link  to  = '/bwiAssignment/login'>Login</Link>
           }
       </div>
       {children}
